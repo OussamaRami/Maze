@@ -3,13 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Maze</h1>
-    <p>
-        <a href="maze.html">Play</a>
-    </p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#video">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro" class="intro">
+        <div class="cover-image">
+            <img src="cover-image.jpg" alt="Cover Image">
+        </div>
+        <div class="intro-content">
+            <h1>Project Name</h1>
+            <p>Your one-line phrase or description here</p>
+            <a href="https://your-deployed-project-url.com" class="btn">Visit Project</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Description of Feature 1</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.jpg" alt="Feature 2">
+            <h3>Feature 2</h3>
+            <p>Description of Feature 2</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.jpg" alt="Feature 3">
+            <h3>Feature 3</h3>
+            <p>Description of Feature 3</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About</h2>
+        <p>Description of what inspired the project...</p>
+        <p>This is a Portfolio Project for Holberton School. You can find it on <a href="https://github.com/your-repo">GitHub</a>.</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/team-member-1">LinkedIn</a> | <a href="https://github.com/team-member-1">GitHub</a> | <a href="https://twitter.com/team-member-1">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/team-member-2">LinkedIn</a> | <a href="https://github.com/team-member-2">GitHub</a> | <a href="https://twitter.com/team-member-2">Twitter</a></li>
+        </ul>
+    </section>
+
+    <section id="video" class="video">
+        <h2>Introduction Video</h2>
+        <video controls>
+            <source src="intro-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 </body>
 </html>
